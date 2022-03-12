@@ -1,7 +1,0 @@
-DEV_DATABASE: "mmjeans_api_development"
-DB_USERNAME: "natalianegreiros"
-DB_PASSWORD: "pm11081016"
-DB_HOST: "localhost"
-PORT: "3000"
-RAILS_ENV: "development"
-RAILS_MAX_THREADS: 5
