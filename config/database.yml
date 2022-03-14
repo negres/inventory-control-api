@@ -10,6 +10,8 @@ common: &common
 development: &development
   <<: *common
   database: <%= ENV['DEV_DATABASE'] %>
+  username: <%= ENV['DB_USERNAME'] %>
+  password: <%= ENV['DB_PASSWORD'] %>
 
 test:
   <<: *common

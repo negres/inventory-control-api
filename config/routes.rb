@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  resources :products
+  defaults format: :json do
+    resources :products, only: %i[show index]
+  end
 end
